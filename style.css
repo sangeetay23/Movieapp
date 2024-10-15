@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://st2.depositphotos.com/1105977/9877/i/450/depositphotos_98775856-stock-photo-retro-film-production-accessories-still.jpg);
+    
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color:rgb(0, 2, 2);
+}
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movie {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    background: rgb(240, 241, 241);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.movie img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    .movie {
+        width: 45%;
+    }
+}
+
+@media (min-width: 900px) {
+    .movie {
+        width: 30%;
+    }
+}
